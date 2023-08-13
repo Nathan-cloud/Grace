@@ -6,7 +6,7 @@ html {
 
 body {
   margin: 0;
-    overflow-x: hidden;
+  overflow-x: hidden;
 
 
 }
@@ -880,6 +880,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+  .navbar-logo{
+    margin-top: 40px;
+  }
   .w-container {
     max-width: 728px;
   }
@@ -2379,8 +2382,8 @@ blockquote {
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 20px;
   position: relative;
 }
 
@@ -2499,6 +2502,9 @@ blockquote {
 }
 
 .section.blue-background {
+  background-color: #253b70;
+}
+.motto{
   background-color: #253b70;
 }
 
@@ -4564,6 +4570,7 @@ blockquote {
   margin-bottom: 0;
   font-family: Mplusrounded1c, sans-serif;
   font-weight: 900;
+  font-size: 50px;
 }
 
 .left-block-banner {
@@ -4699,6 +4706,7 @@ blockquote {
 .main-heading.width {
   max-width: 515px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .main-heading.width-paragraph {
@@ -4776,13 +4784,14 @@ blockquote {
 }
 
 .lock-image {
-  width: 110px;
-  height: 120px;
   object-fit: contain;
   position: absolute;
-  top: -42px;
-  left: 0%;
-  right: 0%;
+  top: 20px;
+}
+.lock-image-home {
+  object-fit: contain;
+  position: absolute;
+  top: -50px;
 }
 
 .certifacate-image {
@@ -5537,55 +5546,8 @@ blockquote {
   display: flex;
 }
 
-.footer-left-location-wrapper {
-  width: 50%;
-  grid-row-gap: 20px;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 30px;
-  display: flex;
-}
 
-.footer-location {
-  color: #425175;
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: Roboto, sans-serif;
-}
 
-.footer-phone-link {
-  color: #425175;
-  font-size: 16px;
-}
-
-.footer-phone-link:hover {
-  color: #ff7162;
-}
-
-.footer-right-wrapper {
-  width: 57%;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  display: flex;
-}
-
-.footer-description {
-  max-width: 270px;
-  color: #425175;
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: Roboto, sans-serif;
-  line-height: 150%;
-}
-
-.footer-form {
-  width: 100%;
-  grid-column-gap: 20px;
-  justify-content: space-between;
-  display: flex;
-}
 
 .text {
   height: 47px;
@@ -5822,10 +5784,12 @@ blockquote {
 }
 
 .primary-footer-copyright {
-  text-align: right;
+  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
   font-family: Roboto, sans-serif;
+  position: relative;
+  right: 70%;
 }
 
 .copyright-link {
@@ -6458,7 +6422,7 @@ blockquote {
 .about-us-banner-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 113, 98, 0.4)),
-    url("https://assets.website-files.com/63297a6e0db55f763a6d4d9a/6347d03995462c8c6d650dcd_image.webp");
+    url("../img/87649087708.png");
   background-position: 0 0, 0 0, 50%;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
@@ -7919,7 +7883,7 @@ blockquote {
 .how-to-apply {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 113, 98, 0.4)),
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://assets.website-files.com/63297a6e0db55f763a6d4d9a/63510a1c63792dc57bd6fb63_image.webp");
+    url("../img/63510a1c63792dc57bd6fb63_image.png");
   background-position: 0 0, 0 0, 50%;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
@@ -8450,7 +8414,7 @@ blockquote {
 .contact-us-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 113, 98, 0.4)),
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://assets.website-files.com/63297a6e0db55f763a6d4d9a/634d55b33b32696e1903b4a4_image.webp");
+    url("../img/634d55b33b32696e1903b4a4_image.png");
   background-position: 0 0, 0 0, 50%;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
@@ -8621,7 +8585,7 @@ blockquote {
 
 .left-form-wrapper,
 .right-form-wrapper {
-  width: 46%;
+  width: 100%;
   grid-row-gap: 20px;
   flex-direction: column;
   display: flex;
@@ -8890,7 +8854,7 @@ blockquote {
 
   .section {
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 40px;
   }
 
   .section.job-position-banner {
@@ -9478,7 +9442,7 @@ blockquote {
   .about-us-banner-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 113, 98, 0.4)),
-      url("https://assets.website-files.com/63297a6e0db55f763a6d4d9a/6347d03995462c8c6d650dcd_image.webp");
+      url("../img/87649087708.png");
     background-position: 0 0, 0 0, 50% 7%;
   }
 
@@ -9691,7 +9655,7 @@ blockquote {
   .how-to-apply {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 113, 98, 0.4)),
-      url("https://assets.website-files.com/63297a6e0db55f763a6d4d9a/63510a1c63792dc57bd6fb63_image.webp");
+      url("../img/63510a1c63792dc57bd6fb63_image.png");
     background-position: 0 0, 0 0, 50% 77%;
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, cover;
@@ -10322,7 +10286,7 @@ blockquote {
   .about-us-banner-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 113, 98, 0.4)),
-      url("https://assets.website-files.com/63297a6e0db55f763a6d4d9a/6347d03995462c8c6d650dcd_image.webp");
+      url("../img/87649087708.png");
     background-position: 0 0, 0 0, 50% 30%;
   }
 
@@ -10956,7 +10920,7 @@ blockquote {
   }
 
   .brand-tablet {
-    width: 80%;
+    width: 60%;
     object-fit: cover;
     display: block;
   }
@@ -11990,6 +11954,9 @@ blockquote {
 }
 
 @media screen and (max-width: 767px) {
+  .primary-footer-copyright{
+    right: 0;
+  }
   h1 {
     font-size: 40px;
   }
